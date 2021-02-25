@@ -1,7 +1,7 @@
-String to Json converter
-==============
+# String to Json converter
 
 Convert a string that contains a Json object to Json object format. This can convert json object that have arrays inside and keys with dot notation. Mainly focusing on MongoDB queries.
+
 ```js
 
 For example
@@ -17,25 +17,28 @@ Object like below
 
 ```
 
--------------
-
+---
 
 ## Assumptions
-* Strings inside the object do not contain commas. For example, this string values is not valid: "Hi, How are you"
+
+- Strings inside the object do not contain commas. For example, this string values is not valid: "Hi, How are you"
 
 ## Installation
+
     $ npm install string-to-json-converter
 
 ## Quick Start
 
 ```js
-    import StringToJson from 'string-to-json-converter';
+import StringToJson from "string-to-json-converter";
 
-    const jsonString = '{ appName: "JsonTest", keywords: { $in: [ "json", "string" ] } }';
-    // IMPORTANT - String should provide within single quotes. String inside the object should provide within double quotes.
+const jsonString =
+  '{ appName: "JsonTest", keywords: { $in: [ "json", "string" ] } }';
+// IMPORTANT - String should provide within single quotes. String inside the object should provide within double quotes.
 
-    const resultJsonObject = await StringToJson.convertJson(jsonString);
+const resultJsonObject = StringToJson.convertJson(jsonString);
 ```
-## License
-MIT
 
+## License
+
+MIT
