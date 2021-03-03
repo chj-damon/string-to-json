@@ -1,6 +1,6 @@
 {
   "name": "string-to-object-convert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "string-to-object-convert",
   "main": "./lib/index.js",
   "scripts": {
