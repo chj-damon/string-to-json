@@ -1,7 +1,7 @@
 {
-  "name": "string-to-json-converter",
+  "name": "string-to-object-convert",
   "version": "1.0.2",
-  "description": "string-to-json-converter",
+  "description": "string-to-object-convert",
   "main": "./lib/index.js",
   "scripts": {
     "start": "nodemon ./lib/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LahiruWijewardana/string-to-json.git"
+    "url": "https://github.com/chj-damon/string-to-object.git"
   },
   "keywords": [
     "npm",
@@ -22,7 +22,7 @@
       "pre-commit": "npm run test"
     }
   },
-  "author": "Lahiru Wijewardana",
+  "author": "chj-damon",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

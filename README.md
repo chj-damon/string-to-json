@@ -1,6 +1,7 @@
 # String to Object converter
 
 Convert a string that contains an object.
+
 ```js
 
 For example
@@ -24,12 +25,12 @@ Object like below
 
 ## Installation
 
-    $ npm install string-to-object
+    $ npm install string-to-object-convert
 
 ## Quick Start
 
 ```js
-import StringToObject from "string-to-object";
+import StringToObject from "string-to-object-convert";
 
 const jsonString =
   '{ appName: "JsonTest", keywords: { $in: [ "json", "string" ] } }';
