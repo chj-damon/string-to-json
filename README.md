@@ -1,7 +1,6 @@
-# String to Json converter
+# String to Object converter
 
-Convert a string that contains a Json object to Json object format. This can convert json object that have arrays inside and keys with dot notation. Mainly focusing on MongoDB queries.
-
+Convert a string that contains an object.
 ```js
 
 For example
@@ -25,18 +24,18 @@ Object like below
 
 ## Installation
 
-    $ npm install string-to-json-converter
+    $ npm install string-to-object
 
 ## Quick Start
 
 ```js
-import StringToJson from "string-to-json-converter";
+import StringToObject from "string-to-object";
 
 const jsonString =
   '{ appName: "JsonTest", keywords: { $in: [ "json", "string" ] } }';
 // IMPORTANT - String should provide within single quotes. String inside the object should provide within double quotes.
 
-const resultJsonObject = StringToJson.convertJson(jsonString);
+const resultObject = StringToObject.convertObject(jsonString);
 ```
 
 ## License
