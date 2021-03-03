@@ -1,6 +1,6 @@
 {
   "name": "string-to-json-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "string-to-json-converter",
   "main": "./lib/index.js",
   "scripts": {
